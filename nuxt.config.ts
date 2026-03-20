@@ -6,5 +6,6 @@ export default defineNuxtConfig({
     public: {
       tmdbApiKey: process.env.TMDB_API_KEY
     }
-  }
+  },
+  modules: ['@nuxtjs/tailwindcss']
 })
